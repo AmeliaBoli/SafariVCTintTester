@@ -12,6 +12,7 @@
 		AE2361021DC51D7E0000F0E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE2361001DC51D7E0000F0E5 /* Main.storyboard */; };
 		AE2361041DC51D7E0000F0E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE2361031DC51D7E0000F0E5 /* Assets.xcassets */; };
 		AE2361071DC51D7E0000F0E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE2361051DC51D7E0000F0E5 /* LaunchScreen.storyboard */; };
+		AE23610F1DC51F500000F0E5 /* StyledSafariViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE23610E1DC51F500000F0E5 /* StyledSafariViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		AE2361031DC51D7E0000F0E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE2361061DC51D7E0000F0E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE2361081DC51D7E0000F0E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE23610E1DC51F500000F0E5 /* StyledSafariViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StyledSafariViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +58,21 @@
 			children = (
 				AE2360FC1DC51D7E0000F0E5 /* AppDelegate.swift */,
 				AE2360FE1DC51D7E0000F0E5 /* ViewController.swift */,
+				AE23610E1DC51F500000F0E5 /* StyledSafariViewController.swift */,
 				AE2361001DC51D7E0000F0E5 /* Main.storyboard */,
+				AEF3D50A1DC54860005D081D /* Supporting Files */,
+			);
+			path = SafariTintTester;
+			sourceTree = "<group>";
+		};
+		AEF3D50A1DC54860005D081D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				AE2361031DC51D7E0000F0E5 /* Assets.xcassets */,
 				AE2361051DC51D7E0000F0E5 /* LaunchScreen.storyboard */,
 				AE2361081DC51D7E0000F0E5 /* Info.plist */,
 			);
-			path = SafariTintTester;
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE2360FF1DC51D7E0000F0E5 /* ViewController.swift in Sources */,
+				AE23610F1DC51F500000F0E5 /* StyledSafariViewController.swift in Sources */,
 				AE2360FD1DC51D7E0000F0E5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,6 +312,7 @@
 				AE23610D1DC51D7E0000F0E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
